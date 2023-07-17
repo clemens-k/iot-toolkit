@@ -66,8 +66,8 @@
 
 
 /* pcap variables */
-char				errbuf[PCAP_ERRBUF_SIZE];
-struct bpf_program	pcap_filter;
+// char				errbuf[PCAP_ERRBUF_SIZE];
+// struct bpf_program	pcap_filter;
 
 #ifdef __linux__
 /* Netlink requests */
